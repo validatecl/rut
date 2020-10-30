@@ -1,6 +1,6 @@
 # @validatecl/rut
 
-[![Build Status](https://travis-ci.org/validatecl/rut.svg?branch=master)](https://travis-ci.org/validatecl/rut)
+[![Build Status](https://travis-ci.com/validatecl/rut.svg?branch=main)](https://travis-ci.org/validatecl/rut)
 ![GitHub](https://img.shields.io/github/license/validatecl/rut)
 ![GitHub last commit](https://img.shields.io/github/last-commit/validatecl/rut)
 ![npm (scoped)](https://img.shields.io/npm/v/@validatecl/rut)
