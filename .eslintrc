@@ -1,0 +1,6 @@
+{
+  "extends": "@validatecl",
+  "env": {
+    "node": true
+  }
+}

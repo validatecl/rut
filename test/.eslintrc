@@ -1,0 +1,13 @@
+{
+  "extends": "@validatecl/eslint-config/typescript",
+  "env": {
+    "mocha": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "max-lines-per-function": "off",
+    "max-lines": "off"
+  }
+}
