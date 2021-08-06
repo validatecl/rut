@@ -1,11 +1,11 @@
 {
-  "name": "@validatecl/cl-rut",
+  "name": "@validatecl/rut",
   "description": "Chilean RUT utils for Node.js and the browser.",
   "main": "lib/index.js",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "author": "validatecl <hi@validatecl.dev>",
   "license": "MIT",
-  "homepage": "https://github.com/validatecl/cl-rut#readme",
+  "homepage": "https://github.com/validatecl/rut#readme",
   "directories": {
     "test": "test"
   },
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/validatecl/cl-rut.git"
+    "url": "git+https://github.com/validatecl/rut.git"
   },
   "keywords": [
     "chilean",
@@ -30,7 +30,7 @@
     "format"
   ],
   "bugs": {
-    "url": "https://github.com/validatecl/cl-rut/issues"
+    "url": "https://github.com/validatecl/rut/issues"
   },
   "devDependencies": {
     "@validatecl/eslint-config": "^1.0.2",
