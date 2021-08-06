@@ -1,10 +1,10 @@
 # @validatecl/cl-rut
 
-[![Build Status](https://travis-ci.org/validatecl/cl-rut.svg?branch=main)](https://travis-ci.org/validatecl/cl-rut)
-![GitHub](https://img.shields.io/github/license/validatecl/cl-rut)
-![GitHub last commit](https://img.shields.io/github/last-commit/validatecl/cl-rut)
-![npm (scoped)](https://img.shields.io/npm/v/@validatecl/cl-rut)
-![npm](https://img.shields.io/npm/dw/@validatecl/cl-rut)
+[![Build Status](https://travis-ci.org/validatecl/rut.svg?branch=main)](https://travis-ci.org/validatecl/cl-rut)
+![GitHub](https://img.shields.io/github/license/validatecl/rut)
+![GitHub last commit](https://img.shields.io/github/last-commit/validatecl/rut)
+![npm (scoped)](https://img.shields.io/npm/v/validatecl/rut)
+![npm](https://img.shields.io/npm/dw/@validatecl/rut)
 
 Dependency-free, Chilean RUT utils for Node.js and browsers (transpiled).
 
