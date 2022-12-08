@@ -147,7 +147,7 @@ export const calculate = (digits: string): string => {
     return null;
   }
 
-  let cleaned = parseInt(clean(digits) as string, 10);
+  let cleaned = parseInt(clean(digits), 10);
   let m = 0;
   let r = 1;
 

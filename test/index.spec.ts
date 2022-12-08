@@ -35,10 +35,10 @@ describe('@validatecl/cl-rut', function () {
     });
 
     it('Should not calculate an empty value', function () {
-      expect(calculate(null)).to.be.null;
+      expect(calculate(null as unknown as string)).to.be.null;
       expect(calculate('')).to.be.null;
       expect(calculate('-')).to.be.null;
-      expect(calculate(undefined)).to.be.null;
+      expect(calculate(undefined as unknown as string)).to.be.null;
     });
   });
 
@@ -62,10 +62,10 @@ describe('@validatecl/cl-rut', function () {
     });
 
     it('Should not clean an empty value', function () {
-      expect(clean(null)).to.be.null;
+      expect(clean(null as unknown as string)).to.be.null;
       expect(clean('')).to.be.null;
       expect(clean('0')).to.be.null;
-      expect(clean(undefined)).to.be.null;
+      expect(clean(undefined as unknown as string)).to.be.null;
     });
   });
 
@@ -89,10 +89,10 @@ describe('@validatecl/cl-rut', function () {
     });
 
     it('Should not clean an empty value', function () {
-      expect(cleanParts(null)).to.be.null;
+      expect(cleanParts(null as unknown as string)).to.be.null;
       expect(cleanParts('')).to.be.null;
       expect(cleanParts('0')).to.be.null;
-      expect(cleanParts(undefined)).to.be.null;
+      expect(cleanParts(undefined as unknown as string)).to.be.null;
     });
   });
 
@@ -119,10 +119,10 @@ describe('@validatecl/cl-rut', function () {
     });
 
     it('Should not return the digits an empty value', function () {
-      expect(digits(null)).to.be.null;
+      expect(digits(null as unknown as string)).to.be.null;
       expect(digits('')).to.be.null;
       expect(digits('0')).to.be.null;
-      expect(digits(undefined)).to.be.null;
+      expect(digits(undefined as unknown as string)).to.be.null;
     });
   });
 
@@ -168,10 +168,10 @@ describe('@validatecl/cl-rut', function () {
     });
 
     it('Should not format an empty value', function () {
-      expect(format(null)).to.be.null;
+      expect(format(null as unknown as string)).to.be.null;
       expect(format('')).to.be.null;
       expect(format('0')).to.be.null;
-      expect(format(undefined)).to.be.null;
+      expect(format(undefined as unknown as string)).to.be.null;
     });
   });
 
@@ -188,9 +188,9 @@ describe('@validatecl/cl-rut', function () {
     });
 
     it('Should not validate an empty value', function () {
-      expect(validate(null)).to.be.false;
+      expect(validate(null as unknown as string)).to.be.false;
       expect(validate('')).to.be.false;
-      expect(validate(undefined)).to.be.false;
+      expect(validate(undefined as unknown as string)).to.be.false;
     });
   });
 
@@ -216,10 +216,10 @@ describe('@validatecl/cl-rut', function () {
     });
 
     it('Should not return the verifier an empty value', function () {
-      expect(verifier(null)).to.be.null;
+      expect(verifier(null as unknown as string)).to.be.null;
       expect(verifier('')).to.be.null;
       expect(verifier('0')).to.be.null;
-      expect(verifier(undefined)).to.be.null;
+      expect(verifier(undefined as unknown as string)).to.be.null;
     });
   });
 });

@@ -10,12 +10,13 @@ Dependency-free, Chilean RUT utils for Node.js and browsers (transpiled).
 
 ## Requirements
 
-This library has been tested with **Node.js 12, 14** and **NPM 6**.
+This library has been tested with **Node.js 16, 19** and **NPM 8**.
 
 ## Installation
 
 ```sh
 npm i @validatecl/rut
+yarn add @validatecl/rut
 ```
 
 ## Usage
