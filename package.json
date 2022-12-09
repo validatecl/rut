@@ -2,7 +2,7 @@
 	"name": "@validatecl/rut",
 	"description": "Chilean RUT utils for Node.js and the browser.",
 	"main": "lib/index.js",
-	"version": "4.0.5",
+	"version": "4.0.6",
 	"author": "validatecl <hi@validatecl.dev>",
 	"license": "MIT",
 	"homepage": "https://github.com/validatecl/rut#readme",
