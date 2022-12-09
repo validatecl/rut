@@ -16,6 +16,9 @@ This library has been tested with **Node.js 16, 19** and **NPM 8**.
 
 ```sh
 npm i @validatecl/rut
+```
+
+```sh
 yarn add @validatecl/rut
 ```
 
